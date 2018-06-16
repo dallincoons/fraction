@@ -1,0 +1,27 @@
+{
+    "name": "spacegrass/fraction",
+    "description": "A composer-installable fractions library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Dallin Coons",
+            "email": "dallinis@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Spacegrass\\": "src"
+        }
+    },
+    "scripts": {
+        "test": "phpunit tests"
+     }
+}
